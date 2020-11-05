@@ -1,0 +1,86 @@
+body {
+  font-family: Lato;
+  display: flex;
+  justify-content: center;
+  width: 160px;
+}
+.row {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  width: 100%;
+}
+.display-container {
+  width: 166px;
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding-bottom: 30px;
+  border: 1px solid black;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+}
+.calc-button {
+  background-color: silver;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+  /* quando eh .calc ele chama class= */
+}
+#calc-clear:hover {
+  background-color: #8e8282;
+}
+#calc-clear:active {
+  background-color: #afa8a8;
+}
+#calc-erase:hover {
+  background-color: #8e8282;
+}
+#calc-erase:active {
+  background-color: #afa8a8;
+}
+
+.calc-button:hover {
+  background-color: #8e8282;
+}
+
+.calc-button:active {
+  background-color: #afa8a8;
+}
+
+.calc-button-num:hover {
+  background-color: #8e8282;
+}
+
+.calc-button-num:active {
+  background-color: #afa8a8;
+}
+
+.calc-button-operator:hover {
+  background-color: #b58686;
+}
+.calc-button-operator:active {
+  background-color: #ba5353;
+}
+
+.column {
+  display: table-cell; /*quando usado formou o teclado */
+}
+
+#calc-equal {
+  width: 82px;
+}
+
+#calc-clear {
+  width: 82px;
+}
+
+.calc-button-operator {
+  background-color: red;
+}
