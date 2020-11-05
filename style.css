@@ -31,35 +31,23 @@ body {
   justify-content: center;
   border: 1px solid black;
   cursor: pointer;
-  /* quando eh .calc ele chama class= */
 }
-#calc-clear:hover {
-  background-color: #8e8282;
-}
-#calc-clear:active {
-  background-color: #afa8a8;
-}
-#calc-erase:hover {
-  background-color: #8e8282;
-}
-#calc-erase:active {
-  background-color: #afa8a8;
-}
-
-.calc-button:hover {
-  background-color: #8e8282;
-}
-
-.calc-button:active {
-  background-color: #afa8a8;
-}
-
+#calc-clear:hover,
+#calc-erase:hover,
+.calc-button:hover,
 .calc-button-num:hover {
   background-color: #8e8282;
 }
-
+#calc-clear:active,
+.calc-button:active,
+#calc-erase:active,
 .calc-button-num:active {
   background-color: #afa8a8;
+}
+
+#calc-equal,
+#calc-clear {
+  width: 82px;
 }
 
 .calc-button-operator:hover {
@@ -70,15 +58,7 @@ body {
 }
 
 .column {
-  display: table-cell; /*quando usado formou o teclado */
-}
-
-#calc-equal {
-  width: 82px;
-}
-
-#calc-clear {
-  width: 82px;
+  display: table-cell;
 }
 
 .calc-button-operator {
